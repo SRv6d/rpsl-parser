@@ -23,7 +23,7 @@ name = "rpsl"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-winnow = "0.6.21"
+winnow = "0.7.0"
 thiserror = "2.0.11"
 serde = { version = "1.0.217", features = ["derive"], optional = true }
 serde_json = { version = "1.0.134", optional = true }
